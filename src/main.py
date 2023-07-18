@@ -27,14 +27,9 @@ st.header("Streamlit + Inference API")
 st.markdown("""---""")
 
 question_input = st.text_area("Enter question")
-rerun_button = st.button("Rerun")
+rerun_button = st.button("Submit")
 
 st.markdown("""---""")
-
-if question_input:
-    response = make_request(question_input)
-else:
-    pass
 
 if rerun_button:
     response = make_request(question_input)
