@@ -26,7 +26,7 @@ st.header("Streamlit + OpenAI ChatGPT API")
 
 st.markdown("""---""")
 
-question_input = st.text_input("Enter question")
+question_input = st.text_area("Enter question")
 rerun_button = st.button("Rerun")
 
 st.markdown("""---""")
