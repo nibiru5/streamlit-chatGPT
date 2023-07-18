@@ -22,7 +22,7 @@ def make_request(question_input: str):
     return response
 
 
-st.header("Streamlit + OpenAI ChatGPT API")
+st.header("Streamlit + Inference API")
 
 st.markdown("""---""")
 
