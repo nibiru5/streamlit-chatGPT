@@ -14,7 +14,7 @@ openai.api_key = API_KEY
 
 def make_request(question_input: str):
     response = openai.ChatCompletion.create(
-        model="gpt-3.5-turbo",
+        model="gpt-4",
         messages=[
             {"role": "system", "content": f"{question_input}"},
         ]
