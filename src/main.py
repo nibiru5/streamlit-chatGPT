@@ -38,7 +38,7 @@ else:
 
 if response:
     st.write("Response:")
-    st.write(response["choices"][0]["message"]["content"])
+    st.code(response["choices"][0]["message"]["content"])
 
     prompt_tokens = response["usage"]["prompt_tokens"]
     completion_tokes = response["usage"]["completion_tokens"]
